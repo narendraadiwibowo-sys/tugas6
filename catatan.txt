@@ -5,3 +5,5 @@ nama table : uploads
   path VARCHAR(255) NOT NULL,
   name VARCHAR(255)
 
+nama folder untuk menyimpan pdf : uploads
+
