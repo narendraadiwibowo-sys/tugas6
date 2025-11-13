@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload File PDF</title>
+
+  <style>
+    button {
+      background-color: lime;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <h2>Upload File PDF</h2>
+
+  <form action="proses.php" method="POST" enctype="multipart/form-data">
+    <label>Pilih File PDF:</label>
+    <input type="file" name="pdf_file" accept="application/pdf" required>
+    <br><br>
+    <button type="submit">Upload</button>
+  </form>
+
+</body>
+</html>
+

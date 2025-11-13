@@ -1,0 +1,7 @@
+nama database: uplaod_db
+nama table : uploads
+
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  path VARCHAR(255) NOT NULL,
+  name VARCHAR(255)
+
